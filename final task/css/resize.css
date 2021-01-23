@@ -1,0 +1,108 @@
+@media only screen and (max-width: 1200px) {
+
+	.pro-icon-img::after {
+		position: absolute;
+	    content: "";
+	    top: 50%;
+	    transform: translateY(-50%);
+	    right: -57%;
+	    height: 2PX;
+	    width: 57%;
+	    background-color: #25bed6;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+
+	.myNav-nav {
+		padding: 2rem;
+	}
+
+	.myNav-item:hover {
+		background-color: #f2f2f2;
+	}
+	.myCarouselCaption h6 {
+	    font-size: 28px;
+	    text-transform: capitalize;
+	    font-weight: 600;
+	    line-height: 17px;
+	}
+
+	.myCarouselCaption p {
+		margin-top: 0.5rem;
+	}
+	
+	.buy-sell-wrapper {
+	    background-image: url(../img/buy-sell-bg2.jpg);
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	    background-position: center;
+	    padding: 5rem 0;
+	}
+
+	.hm-market-wrap {
+	    background-image: url(../img/market-place-bg2.jpg);
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	    background-position: center;
+	    padding: 3rem 0;
+	}
+
+	.brand {
+		width: 100%;
+	}
+
+	.myNav-item:nth-child(6)::before {
+		display: none;
+	}
+
+	
+}
+
+@media only screen and (max-width: 767px) {
+
+	.brand {
+		width: 80%;
+	}
+
+	.cash-text-inner {
+		margin-top: 3rem;
+	}
+
+	.pro-icon-img:nth-child()::after{
+		display: none;
+	}
+
+
+}
+
+@media only screen and (max-width: 575px) {
+
+	.buy-sell-wrapper {
+		padding: 1rem 0;
+	} 
+
+	.page-title h1 {
+		font-size: 30px;
+	}
+
+	.real-wrap a {
+		font-size: 12px;
+	}
+
+	.brand {
+		width: 80%;
+	}
+
+	.cash-text-inner {
+		margin-top: 3rem;
+	}
+
+	.manage-icon-inner {
+		margin-top: 3rem;
+	}
+
+	.exp1-wrap {
+		margin: 0;	
+	}
+}
